@@ -2,7 +2,7 @@ Coordinate Math
 
 What happens if you use the x,y information from a pixel to determine its color?
 
-Enter in any valid javascript using the x and y variables to see!
+Enter in any valid javascript using the x and y variables and press enter to see!
 
 You can use any P5.js variables/methods as well (frameCount is a good one)
 
