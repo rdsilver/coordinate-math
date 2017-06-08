@@ -17,6 +17,9 @@ function draw() {
         rect(x, y, rectSize, rectSize);
       }
     }
+  } else {
+    // Don't iterate frameCount if we arn't actually drawing anything
+    frameCount==;
   }
 }
 
