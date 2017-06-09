@@ -5,14 +5,5 @@ $(function() {
 	        formula = $(this).val();
 	        $(this).blur()
 	    }
-
-			try {
-			  eval(code); 
-			} catch (e) {
-			  if (e instanceof SyntaxError) {
-			      alert(e.message);
-			  }
-			  formula = 'x + y'
-			}
 	});
 });
