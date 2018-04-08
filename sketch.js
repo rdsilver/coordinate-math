@@ -1,5 +1,5 @@
-let formula = 'x + y'
-const rectSize = 10;
+let formula = 'x | y'
+const rectSize = 20;
 
 function setup() {
   const myCanvas = createCanvas(windowWidth, windowHeight);
@@ -31,3 +31,9 @@ function getFill(x, y) {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
+// Function of framecount
+// Physical knobs
+//  - Type of function
+//  - Knobs for x and y 
+
